@@ -1,0 +1,14 @@
+id: bd8bbd83-1072-493e-944b-aa54d80a9e06
+pipeline_type: WORKSPACE
+name: pipeline1
+libraries:
+  - glob:
+      include: ../../src/pipeline1/transformations/**
+schema: default
+continuous: false
+development: false
+photon: true
+channel: CURRENT
+catalog: workspace
+serverless: true
+root_path: ../../src/pipeline1
